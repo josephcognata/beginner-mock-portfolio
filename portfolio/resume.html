@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- This website was created by: Joseph Cognata -->
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Joseph Cognata</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Internal style that sets that parameters for social media logos-->
+  <style>
+  .fa {
+    line-height: 0px;
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    color: rgba(0,0,0,.84);
+  }
+
+  .fa-linkedin {
+    color: rgba(0,0,0,.84);
+  }
+
+  .fa-github {
+
+    color: rgba(0,0,0,.84);
+  }
+  </style>
+</head>
+
+
+  <body>
+    <header>
+      <a href="index.html"><img src="images/header/4.jpg" alt="Banner"></a>
+    </header>
+
+    <!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav>
+			<ul>
+				<li> <a href="index.html">Home</a> </li>
+				<li> <a href="projects.html">Projects</a> </li>
+				<li> <a href="resume.html">Resume</a> </li>
+				<li> <a href="contact.html">Contact Me</a> </li>
+			</ul>
+		</nav>
+
+  <!--Use the main area to add the main content of the webpage -->
+  <main>
+    <!--id to define img and table-->
+    <div id="resume">
+      <img src="./images/resume/me.jpg" alt="Avatar">
+
+    <h1>Contact</h1>
+    <table>
+          <tr>
+        <td>5555 Doe Lane, Jackson, MI 49201
+          </tr>
+
+          <tr>
+        <td>Home Phone: (517)555-5555</td>
+          </tr>
+
+          <tr>
+        <td>E-mail: cognatajosepho@my.jccmi.edu</td>
+          </tr>
+      </table>
+    <h1>Work Experience</h1>
+        <table>
+          <tr>
+            <td>None</td>
+          </tr>
+        </table>
+            <h1>Additional Experience</h1>
+            <table>
+            <tr>
+              <td>Part-time and summer employment experience: None</td>
+            </tr>
+          </table>
+            <h1>Education</h1>
+            <table>
+              <tr>
+                    <td>Jackson College, Jackson, MI <br>
+                        May 2020- Prospective Associate in Computer Science<br>
+                        Jackson Preparatory and Early College, Jackson, MI August 2016- Present<br>
+                        Hanover Horton High School, Hanover, MI
+                          August 2015- May 2016
+                    </td>
+              </tr>
+            </table>
+
+              <h1>Special Skills</h1>
+              <table>
+                <tr>
+                    <td>
+                        C++ Experience<br>
+                        Javascript Knowledge<br>
+                        Experience with Microsoft Office<br>
+                        HTML Knowledge<br>
+                    </td>
+                </tr>
+              </table>
+            </div>
+          </main>
+            <!--Use the footer area to add webpage footer content-->
+  <footer>
+    <div id="social">
+      <p><a href="https://www.facebook.com/joseph.cognata.79" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/in/joseph-cognata-a360aa140/" class="fa fa-linkedin" ></a>
+      <a href="https://github.com/JosephTech/JosephTech.github.io" class="fa fa-github"></a></p>
+    </div>
+
+    <p>&copy;Copyright <span id="year"></span>. All Rights Reserved. <br>
+    <a href="mailto:cognatajosepho@my.jccmi.edu">cognatajosepho@my.jccmi.edu</a></p>
+  </footer>
+
+  <script>
+   document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

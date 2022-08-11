@@ -1,0 +1,303 @@
+/*Style for images that specifies width*/
+img{
+	max-width: 100%;
+}
+
+/*Style for header specifies width, height, overflow, padding, and background-color*/
+header{
+width: 100%;
+height: 20em;
+overflow: hidden;
+background-color: #141414;
+}
+
+nav{
+    border-width: 0px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 1.3em;
+    background-color: #141414;
+}
+
+nav li{
+    display:inline;
+}
+
+nav a{
+		color: #FFFFFF;
+    display:inline-block;
+    padding:1em;
+		text-decoration:none;
+		font-weight:bold;
+		height: auto;
+}
+
+nav ul {
+    margin: 0;
+		padding: 0;
+}
+
+nav	a:hover{
+		text-decoration:underline;
+}
+
+body{
+padding: 0;
+margin: 0;
+background: #f9f9f9;
+font-family: 'Roboto', sans-serif;
+}
+
+/* Style for main element specifies a block display, text properties, margins, padding, rounded corners, and border properties*/
+main {
+	justify-content: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	opacity: 0.85;
+}
+
+/*Style specifies clear and top margin properties for main element */
+main{
+	clear: left;
+	margin-top: -0.3em;
+	border-radius: 0;
+	overflow: hidden;
+}
+
+/* Style for anchor elements within the main element */
+main a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Style for footer specifies font size, text alignment, padding, background color and top margin*/
+footer {
+	font-size: .8em;
+	text-align: center;
+	background-color: #2A2A2A;
+	margin-top: -0.2em;
+	padding: 2em;
+}
+
+/* Style for anchor elements within the footer */
+footer a {
+	color: lightblue;
+}
+
+
+.dropbtn {
+  color: black;
+  padding: 1em;
+  font-size: 16px;
+  border-width: .2em;
+	width: 100%;
+  cursor: pointer;
+	display: block;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  text-align: center;
+  display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+ 	position: relative;
+  background-color: #f1f1f1;
+	width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+#social{
+	width: auto;
+}
+
+#resume img{
+	width:100px;
+	border-radius:50%;
+	padding: 1em;
+}
+
+#resume table{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+h2.title{
+  color: #141414;
+  text-align: center;
+  margin: 20px 0;
+}
+
+input:focus {
+  background-color: lightgrey;
+}
+
+textarea:focus {
+  background-color: lightgrey;
+}
+
+iframe {
+	width: 100%;
+	margin: auto;
+	height: 600px;
+	overflow: hidden;
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+@media only screen and (min-width: 830px) {
+
+	/*Style for the navigation list items specifies a border radius, border, margin, width, and padding */
+	nav li {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 20%;
+	}
+
+	/*Style fpr navigation links specifies display and padding */
+	nav li a {
+		padding: 0.7em;
+		text-shadow: 0.2em 0.1em #3D3D35;
+	}
+
+	/*Style rules for pseudo-classes */
+	/*unvisited link*/
+	nav li a:link {
+		color: #FFFFFF;
+	}
+
+	/*visited link*/
+	nav li a:visited {
+		color: lightblue;
+	}
+
+	/*mouse hover over the link*/
+	nav li a:hover {
+		color: pink;
+		font-style: italic;
+	}
+
+	/* selected link */
+	nav li a:active {
+	  color: white;
+	}
+
+	/*Style specifies background color for main */
+	main{
+		background-color: 	#1D1D1C;
+	}
+
+	/*Style specifies left and right margins for paragraph elements wothin the main element */
+	main p {
+		color: #FFFFFF;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+
+	/* Style for h3 element */
+	h1 {
+		color: #FFFFFF;
+	}
+
+	/* Style for main article h2 element for resume table */
+	main article h2 {
+		color: #000000;
+	}
+
+	/*Style specifies a gradient for the body element */
+	body {
+		background-color: #FFFFFF;
+	}
+
+	/* Style specifies a for footer element */
+	footer {
+		background-color: #2A2A2A;
+	}
+
+	/* Style for table element */
+	table {
+		background-color: #FFFFFF;
+		width: 100%;
+		position: relative;
+	}
+
+	table td {
+		padding: 1em;
+	}
+
+	/* Style rule for form element */
+	form {
+		background-color: #313131;
+		padding: 1em;
+	}
+
+	/* Style rule for paragraph with form element */
+	form p {
+		color: #000000;
+	}
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 660px. */
+@media only screen and (max-width: 660px) {
+
+	/*Style for the navigation list items specifies a border radius, border, margin, width, and padding */
+	nav li{
+		display: block;
+		margin: auto;
+		padding: 0;
+		width: auto;
+	}
+
+	/*Style fpr navigation links specifies display and padding */
+	nav li a {
+		text-shadow: 0.2em 0.1em #3D3D35;
+	}
+
+	/*Style rules for pseudo-classes */
+	/*unvisited link*/
+	nav li a:link {
+		color: #FFFFFF;
+	}
+
+	/*visited link*/
+	nav li a:visited {
+		color: lightblue;
+	}
+
+	/*mouse hover over the link*/
+	nav li a:hover {
+		color: pink;
+		font-style: italic;
+	}
+
+	/* selected link */
+	nav li a:active {
+		color: white;
+	}
+
+
+}
